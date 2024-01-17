@@ -16,7 +16,7 @@
   }
   $out = array_merge($out['flowers'], $out['cards']);
   foreach($out as &$value){
-    $value['url'] = 'https://cobbmtn.fairuse.org/static/validate.php';
+    $value['url'] = 'https://cobbmtn.rf.gd/static/validate.php';
   }
   echo json_encode($out);
 ?>

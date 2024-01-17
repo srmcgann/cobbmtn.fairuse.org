@@ -2,7 +2,7 @@
   require('db.php');
   $imageFolderName = 'resImages';
   $tableName = 'flowers';
-  $imageBaseUrl = 'https://www.cobbmtn.fairuse.org';
+  $imageBaseUrl = 'https://www.cobbmtn.rf.gd';
   mkdir($imageFolderName);
   //array_map( 'unlink', array_filter((array) glob("./$imageFolderName/*") ) );
   $sql = "SELECT * FROM $tableName";

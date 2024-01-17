@@ -16,7 +16,7 @@
   }
   $out = $out['flowers'];
   foreach($out as &$value){
-    $value['url'] = 'https://cobbmtn.fairuse.org/static/validateFlowers.php';
+    $value['url'] = 'https://cobbmtn.rf.gd/static/validateFlowers.php';
   }
   echo json_encode($out);
 ?>
